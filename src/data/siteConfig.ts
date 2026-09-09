@@ -8,9 +8,9 @@ export const siteConfig = {
   tagline: "Online Maths & Vedic Maths Classes for School Students",
 
   // Contact — replace with real details
-  phone: "+91 90000 00000",
-  whatsapp: "919000000000", // digits only, with country code, no + or spaces
-  email: "hello@numeramaths.example",
+  phone: "+91 97624 52056",
+  whatsapp: "919762452056", // digits only, with country code, no + or spaces
+  email: "mathlete1105@gmail.com",
   instagramUrl: "https://instagram.com/numeramaths",
   facebookUrl: "https://facebook.com/numeramaths",
   youtubeUrl: "https://youtube.com/@numeramaths",
