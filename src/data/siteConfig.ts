@@ -1,46 +1,3 @@
-
-Thought for 7s
-Let's check a couple of things — the change might not have actually saved yet, or the page might be showing a cached version. Two quick checks:
-Confirm the file itself was saved correctly on GitHub
-Switch to the GitHub tab that shows MATHLETE/src/data/siteConfig.ts. Scroll through the file content and confirm it actually shows "MATHLETE", "Muskan Taneja", and "9+ years of teaching experience" in the text. If it still shows old placeholder text, the commit didn't save properly and we'll redo it.
-1
-2
-3
-Send me a screenshot of whichever of these three turns up something — the GitHub file content, the Vercel deployments list, or the page after a hard refresh — and we'll know exactly where it's stuck.
-no commits were done
-Thought for 2s
-No problem — let's do it again carefully, one step at a time.
-Check where siteConfig.ts currently is
-Go to your MATHLETE repository, click into src, and check whether siteConfig.ts is sitting directly in src (not yet moved into data) or already inside a data folder.
-1
-2
-3
-4
-5
-Send a screenshot after step 5 (once you're back on the file browser) so I can confirm it landed in the right spot this time.
-Screenshot 2026-09-10 at 11.16.50 AM.png
-no chamges
-Thought for 5s
-I see the issue — this file has your phone/email updates but not the later ones (MATHLETE, Muskan Taneja, course details). You uploaded an earlier version by mistake. Let's fix that now — here's the correct, most up-to-date file:
-Ran a command, read a file
-Now replace the current file's content with this one:
-Click the pencil (edit) icon
-You're already looking at src/data/siteConfig.ts. Click the pencil icon (top right, near "Raw" and "Copy") to edit this file.
-1
-2
-3
-4
-This avoids any more folder/upload mix-ups — you're editing the file's text directly in place. Send a screenshot once you've pasted it in, before you commit, so I can double check it looks right.
-
-
-Siteconfig
-TS 
-not opening in mac
-Thought for 3s
-No problem — easiest fix: skip opening the file entirely. I'll just give you the full text right here to copy directly.
-Ran a command
-Here's the complete, correct file. Copy everything in the box below (click the copy icon that appears when you hover over it):
-typescript
 // ─────────────────────────────────────────────────────────────
 // SITE CONFIG — edit everything here. No other file needs to
 // change when you update contact details, pricing, or timings.
@@ -331,14 +288,5 @@ export const navLinks = [
   { label: "FAQ", to: "/faq" },
   { label: "Contact", to: "/contact" },
 ];
-Now, back on GitHub (you're on the src/data/siteConfig.ts page):
-Click the pencil icon to edit
-Click inside the code area, press Cmd+A to select all, then Delete
-Paste in the text above (Cmd+V)
-Scroll down and click Commit changes
 
-Claude works directly with your codebase
 
-Write a message…
-
-Claude is AI and can make mistakes. Please double-check responses.
