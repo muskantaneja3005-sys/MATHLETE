@@ -14,6 +14,9 @@ export function Navbar() {
             alt={`${siteConfig.businessName} logo`}
             className="h-10 w-auto sm:h-12"
           />
+          <span className="font-display text-lg font-semibold text-navy-700 sm:text-xl">
+            {siteConfig.businessName}
+          </span>
         </NavLink>
 
         <div className="hidden items-center gap-7 lg:flex">
