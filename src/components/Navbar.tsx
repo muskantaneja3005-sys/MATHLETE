@@ -9,12 +9,11 @@ export function Navbar() {
     <header className="sticky top-0 z-40 border-b border-navy-100 bg-cream/90 backdrop-blur">
       <nav className="container-page flex h-16 items-center justify-between sm:h-20" aria-label="Primary">
         <NavLink to="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-          <span className="flex h-9 w-9 items-center justify-center rounded-full bg-navy-700 font-display text-lg text-cream">
-            N
-          </span>
-          <span className="font-display text-lg font-semibold text-navy-700 sm:text-xl">
-            {siteConfig.businessName}
-          </span>
+          <img
+            src="/logo.png"
+            alt={`${siteConfig.businessName} logo`}
+            className="h-10 w-auto sm:h-12"
+          />
         </NavLink>
 
         <div className="hidden items-center gap-7 lg:flex">
