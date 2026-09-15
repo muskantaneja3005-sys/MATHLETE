@@ -14,7 +14,7 @@ export const siteConfig = {
   instagramUrl: "https://instagram.com/numeramaths",
   facebookUrl: "https://facebook.com/numeramaths",
   youtubeUrl: "https://youtube.com/@numeramaths",
-  l  location: "Online Classes — students can join from anywhere in India",
+  l    location: "Online Classes — students can join from anywhere in the world",
   internationalNote:
     "International students welcome — rates for students outside India are quoted in your local currency on request.",
 
