@@ -14,7 +14,9 @@ export const siteConfig = {
   instagramUrl: "https://instagram.com/numeramaths",
   facebookUrl: "https://facebook.com/numeramaths",
   youtubeUrl: "https://youtube.com/@numeramaths",
-  location: "Online Classes — students can join from anywhere in India",
+  l  location: "Online Classes — students can join from anywhere in India",
+  internationalNote:
+    "International students welcome — rates for students outside India are quoted in your local currency on request.",
 
   whatsappDefaultMessage:
     "Hello, I would like to enquire about Maths/Vedic Maths classes for my child.",
