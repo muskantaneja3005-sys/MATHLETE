@@ -33,7 +33,8 @@ export function Contact() {
               <ContactDetail icon="📱" label="WhatsApp" value={siteConfig.phone} href={whatsappUrl} />
               <ContactDetail icon="📞" label="Phone" value={siteConfig.phone} href={`tel:${siteConfig.phone.replace(/\s/g, "")}`} />
               <ContactDetail icon="✉️" label="Email" value={siteConfig.email} href={`mailto:${siteConfig.email}`} />
-              <ContactDetail icon="📍" label="Location" value={siteConfig.location} />
+                            <ContactDetail icon="📍" label="Location" value={siteConfig.location} />
+              <ContactDetail icon="🌍" label="International Students" value={siteConfig.internationalNote} />
             </div>
 
             <a
