@@ -7,14 +7,15 @@ export const siteConfig = {
   businessName: "MATHLETE",
   tagline: "Online Maths & Vedic Maths Classes for School Students",
 
-  // Contact — replace with real details
+  
+    // Contact — replace with real details
   phone: "+91 97624 52056",
   whatsapp: "919762452056", // digits only, with country code, no + or spaces
   email: "mathlete1105@gmail.com",
   instagramUrl: "https://instagram.com/numeramaths",
   facebookUrl: "https://facebook.com/numeramaths",
   youtubeUrl: "https://youtube.com/@numeramaths",
-  l    location: "Online Classes — students can join from anywhere in the world",
+  location: "Online Classes — students can join from anywhere in the world",
   internationalNote:
     "International students welcome — rates for students outside India are quoted in your local currency on request.",
 
