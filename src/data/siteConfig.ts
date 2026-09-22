@@ -7,8 +7,7 @@ export const siteConfig = {
   businessName: "MATHLETE",
   tagline: "Online Maths & Vedic Maths Classes for School Students",
 
-  
-    // Contact — replace with real details
+  // Contact — replace with real details
   phone: "+91 97624 52056",
   whatsapp: "919762452056", // digits only, with country code, no + or spaces
   email: "mathlete1105@gmail.com",
@@ -291,5 +290,3 @@ export const navLinks = [
   { label: "FAQ", to: "/faq" },
   { label: "Contact", to: "/contact" },
 ];
-
-
