@@ -38,7 +38,7 @@ export function Contact() {
               <ContactDetail icon="🌍" label="International Students" value={siteConfig.internationalNote} />
             </div>
 
-            
+            <a
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
