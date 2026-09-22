@@ -1,4 +1,5 @@
 import { ContactForm } from "../components/ContactForm";
+import { InternationalRates } from "../components/InternationalRates";
 import { siteConfig } from "../data/siteConfig";
 
 export function Contact() {
@@ -33,11 +34,11 @@ export function Contact() {
               <ContactDetail icon="📱" label="WhatsApp" value={siteConfig.phone} href={whatsappUrl} />
               <ContactDetail icon="📞" label="Phone" value={siteConfig.phone} href={`tel:${siteConfig.phone.replace(/\s/g, "")}`} />
               <ContactDetail icon="✉️" label="Email" value={siteConfig.email} href={`mailto:${siteConfig.email}`} />
-                            <ContactDetail icon="📍" label="Location" value={siteConfig.location} />
+              <ContactDetail icon="📍" label="Location" value={siteConfig.location} />
               <ContactDetail icon="🌍" label="International Students" value={siteConfig.internationalNote} />
             </div>
 
-            <a
+            
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -50,6 +51,12 @@ export function Contact() {
           <div className="rounded-3xl border border-navy-100 bg-white p-6 shadow-soft sm:p-8">
             <ContactForm />
           </div>
+        </div>
+      </section>
+
+      <section className="pb-16 sm:pb-20">
+        <div className="container-page">
+          <InternationalRates />
         </div>
       </section>
     </>
