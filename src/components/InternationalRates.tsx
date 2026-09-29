@@ -81,7 +81,6 @@ export function InternationalRates() {
             <thead>
               <tr className="border-b border-navy-100 text-navy-400">
                 <th className="py-2 pr-4 font-medium">Course</th>
-                <th className="py-2 pr-4 font-medium">₹ / hour</th>
                 {currencies.map((c) => (
                   <th key={c} className="py-2 pr-4 font-medium">
                     {c}
@@ -93,7 +92,6 @@ export function InternationalRates() {
               {courseRates.map((course) => (
                 <tr key={course.name} className="border-b border-navy-50">
                   <td className="py-2.5 pr-4 text-navy-700">{course.name}</td>
-                  <td className="py-2.5 pr-4 text-navy-600">₹{course.inrPerHour}</td>
                   {currencies.map((c) => {
                     const converted = rates[c] ? course.inrPerHour * rates[c] : null;
                     return (
