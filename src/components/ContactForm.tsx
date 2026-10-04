@@ -1,3 +1,4 @@
+import { siteConfig } from "../data/siteConfig";
 import { useState, type FormEvent, type ReactNode } from "react";
 
 type FormState = {
