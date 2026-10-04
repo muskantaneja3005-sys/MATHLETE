@@ -56,10 +56,22 @@ export function ContactForm() {
       return;
     }
 
-    // NOTE: This form is a clean frontend implementation only.
-    // Connect it to a backend or email service (e.g. Formspree, a serverless
-    // function, or your own API) before relying on it to deliver enquiries.
-    console.log("Demo booking submitted:", form);
+        const text = [
+      "New Demo Booking Request",
+      `Student: ${form.studentName}`,
+      `Parent: ${form.parentName}`,
+      `Class: ${form.studentClass}`,
+      `Board: ${form.board || "-"}`,
+      `Course: ${form.courseInterested}`,
+      `Phone: ${form.phone}`,
+      `Preferred timing: ${form.preferredTiming || "-"}`,
+      `Message: ${form.message || "-"}`,
+    ].join("\n");
+
+    window.open(
+      `https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(text)}`,
+      "_blank"
+    );
 
     setStatus("success");
     setForm(initialState);
